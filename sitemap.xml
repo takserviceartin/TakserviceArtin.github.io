@@ -1,51 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- صفحه اصلی -->
   <url>
     <loc>https://takserviceartin.github.io/</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- خدمات اصلی -->
   <url>
-    <loc>https://takserviceartin.github.io/#services</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://takserviceartin.github.io/#about</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://takserviceartin.github.io/#request</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://takserviceartin.github.io/services/gas.html</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://takserviceartin.github.io/#coverage</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://takserviceartin.github.io/services/hood.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://takserviceartin.github.io/#agents</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://takserviceartin.github.io/services/packaj.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://takserviceartin.github.io/#contact</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://takserviceartin.github.io/services/abgarmkon.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://takserviceartin.github.io/services/microwave.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://takserviceartin.github.io/services/vacuum.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://takserviceartin.github.io/services/spring.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- مناطق و محله‌ها -->
+  <url>
+    <loc>https://takserviceartin.github.io/services/tehran.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://takserviceartin.github.io/services/qarchak.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://takserviceartin.github.io/services/varamin.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- لیست کامل محله‌ها -->
+  <url><loc>https://takserviceartin.github.io/services/afsrieh.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/pasdaran.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/pakdasht.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/qiamdasht.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/pirozi.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/resalat.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/tehranpars.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/shahre-rey.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/dolatabad.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/shush.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/rahahan.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/blvr-abozar.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/mahallati.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/farmanieh.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/pardis.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/bomhen.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/jajerud.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/hakimiye.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/babaei.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/loyzan.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/sorkhe-hesar.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/estakhr.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/lavasanat.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/kahrizak.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/baqershahr.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/qamsar.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/eslamshahr.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/farjam.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/shahrek-shahid-beheshti.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/shahrek-farhangian.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/masoudieh.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/mesgarabad.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/khavaran.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/shahrek-omid.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/azgol.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/nobonyad.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://takserviceartin.github.io/services/fronabad.html</loc><lastmod>2026-02-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <!-- صفحات دیگر -->
+  <url>
+    <loc>https://takserviceartin.github.io/404.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://takserviceartin.github.io/contact.html</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://takserviceartin.github.io/#office</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://takserviceartin.github.io/about.html</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
+
 </urlset>
