@@ -1,17 +1,192 @@
 <!DOCTYPE html>
-<html>
+<html lang="fa">
 <head>
-    <meta charset="utf-8">
-    <title>صفحه پیدا نشد</title>
-    <script>
-        // ریدایرکت به صفحه اصلی بعد از ۳ ثانیه
-        setTimeout(() => {
-            window.location.href = "/";
-        }, 3000);
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صفحه یافت نشد - تک سرویس آرتین</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+  text-align: center;
+}
+
+.header-404 {
+  padding: 60px 20px 30px 20px;
+}
+
+.header-404 img {
+  max-width: 200px;
+  margin-bottom: 20px;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.header-404 h1 {
+  font-size: 6rem;
+  color: #0077cc;
+  margin: 0;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.header-404 h2 {
+  font-size: 2rem;
+  margin: 10px 0 20px;
+}
+
+.header-404 p {
+  font-size: 1.1rem;
+  max-width: 500px;
+  margin: 0 auto 30px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0077cc;
+  color: #fff;
+  padding: 12px 24px;
+  margin: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+  transform: translateY(-3px);
+}
+
+.services-404 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.services-404 .card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  animation: fadeUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+.services-404 .card:nth-child(1) { animation-delay: 0.1s; }
+.services-404 .card:nth-child(2) { animation-delay: 0.2s; }
+.services-404 .card:nth-child(3) { animation-delay: 0.3s; }
+.services-404 .card:nth-child(4) { animation-delay: 0.4s; }
+.services-404 .card:nth-child(5) { animation-delay: 0.5s; }
+.services-404 .card:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.services-404 .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.services-404 .card strong {
+  color: #0077cc;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.services-404 .card em {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* واتساپ شناور */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.whatsapp-float img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.whatsapp-float img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .header-404 h1 { font-size: 4rem; }
+  .header-404 h2 { font-size: 1.5rem; }
+  .header-404 img { max-width: 150px; }
+}
+</style>
 </head>
 <body>
-    <h1>صفحه مورد نظر یافت نشد</h1>
-    <p>به صفحه اصلی هدایت می‌شوید...</p>
+
+<div class="header-404">
+  <img src="images/404.png" alt="صفحه یافت نشد">
+  <h1>404</h1>
+  <h2>صفحه مورد نظر یافت نشد!</h2>
+  <p>متاسفیم، صفحه‌ای که دنبال آن بودید وجود ندارد. می‌توانید به صفحه اصلی بازگردید یا با ما تماس بگیرید.</p>
+  <a class="btn" href="index.html">🏠 بازگشت به صفحه اصلی</a>
+  <a class="btn" href="tel:09XXXXXXXXX">📞 تماس فوری</a>
+</div>
+
+<div class="services-404">
+  <div class="card">
+    <strong>اجاق گاز</strong>
+    <em>نصب و تعمیر در قرچک و تهران</em>
+  </div>
+  <div class="card">
+    <strong>هود آشپزخانه</strong>
+    <em>نصب و تعمیر در قرچک و تهران</em>
+  </div>
+  <div class="card">
+    <strong>پکیج</strong>
+    <em>نصب و تعمیر در ورامین و اطراف</em>
+  </div>
+  <div class="card">
+    <strong>آبگرمکن</strong>
+    <em>نصب و تعمیر سریع</em>
+  </div>
+  <div class="card">
+    <strong>ماکروویو و ماکروفر</strong>
+    <em>نصب و تعمیر در تهران و قرچک</em>
+  </div>
+  <div class="card">
+    <strong>جاروبرقی</strong>
+    <em>تعمیر سریع و مطمئن</em>
+  </div>
+</div>
+
+<div class="whatsapp-float">
+  <a href="https://wa.me/09XXXXXXXXX" target="_blank">
+    <img src="images/icons/whatsapp.png" alt="واتساپ">
+  </a>
+</div>
+
 </body>
 </html>
