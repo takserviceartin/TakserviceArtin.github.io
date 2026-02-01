@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>تک سرویس آرتین - تعمیرات لوازم خانگی</title>
+  <link>https://takserviceartin.github.io/</link>
+  <description>خدمات نصب و تعمیر اجاق گاز، هود، پکیج، آبگرمکن، ماکروویو، جاروبرقی و سایر لوازم خانگی در تهران، قرچک، ورامین و مناطق اطراف</description>
+  <language>fa-ir</language>
+  <lastBuildDate>Sat, 01 Feb 2026 12:00:00 +0330</lastBuildDate>
+
+  <!-- -------------------- خدمات اصلی -------------------- -->
+  
+  <!-- اجاق گاز -->
+  <item>
+    <title>نصب و تعمیر اجاق گاز</title>
+    <link>https://takserviceartin.github.io/services/gas.html</link>
+    <description>نصب و تعمیر انواع اجاق گاز صفحه‌ای و مبله در تهران، قرچک و ورامین</description>
+    <pubDate>Sat, 01 Feb 2026 10:00:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/gas.html</guid>
+  </item>
+
+  <!-- هود -->
+  <item>
+    <title>نصب و تعمیر هود آشپزخانه</title>
+    <link>https://takserviceartin.github.io/services/hood.html</link>
+    <description>نصب و تعمیر انواع هود آشپزخانه در تهران، قرچک و ورامین</description>
+    <pubDate>Sat, 01 Feb 2026 10:15:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/hood.html</guid>
+  </item>
+
+  <!-- پکیج -->
+  <item>
+    <title>نصب و تعمیر پکیج</title>
+    <link>https://takserviceartin.github.io/services/packaj.html</link>
+    <description>نصب و تعمیر انواع پکیج در تهران، ورامین و قرچک</description>
+    <pubDate>Sat, 01 Feb 2026 10:30:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/packaj.html</guid>
+  </item>
+
+  <!-- آبگرمکن -->
+  <item>
+    <title>نصب و تعمیر آبگرمکن</title>
+    <link>https://takserviceartin.github.io/services/abgarmkon.html</link>
+    <description>نصب و تعمیر انواع آبگرمکن در تهران، قرچک و ورامین</description>
+    <pubDate>Sat, 01 Feb 2026 10:45:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/abgarmkon.html</guid>
+  </item>
+
+  <!-- ماکروویو و ماکروفر -->
+  <item>
+    <title>نصب و تعمیر ماکروویو و ماکروفر</title>
+    <link>https://takserviceartin.github.io/services/microwave.html</link>
+    <description>نصب و تعمیر انواع ماکروویو و ماکروفر در تهران، قرچک و ورامین</description>
+    <pubDate>Sat, 01 Feb 2026 11:00:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/microwave.html</guid>
+  </item>
+
+  <!-- جاروبرقی -->
+  <item>
+    <title>تعمیر جاروبرقی</title>
+    <link>https://takserviceartin.github.io/services/vacuum.html</link>
+    <description>تعمیر انواع جاروبرقی در تهران، قرچک و ورامین</description>
+    <pubDate>Sat, 01 Feb 2026 11:15:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/vacuum.html</guid>
+  </item>
+
+  <!-- فنرهای توکار و روکار -->
+  <item>
+    <title>نصب و تعمیر فنرهای توکار و روکار</title>
+    <link>https://takserviceartin.github.io/services/spring.html</link>
+    <description>نصب و تعمیر انواع فنرهای توکار و روکار در تهران و قرچک</description>
+    <pubDate>Sat, 01 Feb 2026 11:30:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/spring.html</guid>
+  </item>
+
+  <!-- -------------------- خدمات در مناطق -------------------- -->
+  <!-- تهران -->
+  <item>
+    <title>خدمات تعمیرات در تهران</title>
+    <link>https://takserviceartin.github.io/services/tehran.html</link>
+    <description>تمام خدمات نصب و تعمیر لوازم خانگی در تهران</description>
+    <pubDate>Sat, 01 Feb 2026 11:45:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/tehran.html</guid>
+  </item>
+
+  <!-- قرچک -->
+  <item>
+    <title>خدمات تعمیرات در قرچک</title>
+    <link>https://takserviceartin.github.io/services/qarchak.html</link>
+    <description>تمام خدمات نصب و تعمیر لوازم خانگی در قرچک</description>
+    <pubDate>Sat, 01 Feb 2026 12:00:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/qarchak.html</guid>
+  </item>
+
+  <!-- ورامین -->
+  <item>
+    <title>خدمات تعمیرات در ورامین</title>
+    <link>https://takserviceartin.github.io/services/varamin.html</link>
+    <description>تمام خدمات نصب و تعمیر لوازم خانگی در ورامین</description>
+    <pubDate>Sat, 01 Feb 2026 12:15:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/varamin.html</guid>
+  </item>
+
+  <!-- سایر محله‌ها -->
+  <item>
+    <title>خدمات تعمیرات در پاسداران</title>
+    <link>https://takserviceartin.github.io/services/pasdaran.html</link>
+    <description>خدمات تعمیرات و نصب لوازم خانگی در محله پاسداران تهران</description>
+    <pubDate>Sat, 01 Feb 2026 12:30:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/pasdaran.html</guid>
+  </item>
+
+  <item>
+    <title>خدمات تعمیرات در پاکدشت</title>
+    <link>https://takserviceartin.github.io/services/pakdasht.html</link>
+    <description>خدمات نصب و تعمیر لوازم خانگی در پاکدشت</description>
+    <pubDate>Sat, 01 Feb 2026 12:45:00 +0330</pubDate>
+    <guid>https://takserviceartin.github.io/services/pakdasht.html</guid>
+  </item>
+
+  <!-- ... همینطور برای بقیه مناطق: قیامدشت، پیروزی، رسالت، تهرانپارس، شهرری، دولت آباد، شوش، راه آهن و بقیه محله‌ها ... -->
+
+</channel>
+</rss>
