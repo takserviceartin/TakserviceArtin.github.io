@@ -1,6 +1,64 @@
+
+# Robots.txt حرفه‌ای - تک سرویس آرتین
+# اجازه دسترسی به همه ربات‌ها
 User-agent: *
+# اجازه ایندکس صفحات اصلی و خدمات محلی
 Allow: /
+Allow: /services/
+Allow: /services/tehran/
+Allow: /services/qarchak/
+Allow: /services/varamin/
+Allow: /services/afsrieh/
+Allow: /services/parsdanar/
+Allow: /services/pakdasht/
+Allow: /services/qiamdasht/
+Allow: /services/pirozi/
+Allow: /services/resalat/
+Allow: /services/tehranpars/
+Allow: /services/shahre-rey/
+Allow: /services/dolatabad/
+Allow: /services/shush/
+Allow: /services/rahahan/
+Allow: /services/blvr-abozar/
+Allow: /services/mahallati/
+Allow: /services/farmanieh/
+Allow: /services/pardis/
+Allow: /services/bomhen/
+Allow: /services/jajerud/
+Allow: /services/hakimiye/
+Allow: /services/babaei/
+Allow: /services/loyzan/
+Allow: /services/sorkhe-hesar/
+Allow: /services/estakhr/
+Allow: /services/lavasanat/
+Allow: /services/kahrizak/
+Allow: /services/baqershahr/
+Allow: /services/qamsar/
+Allow: /services/eslamshahr/
+Allow: /services/farjam/
+Allow: /services/shahrek-shahid-beheshti/
+Allow: /services/shahrek-farhangian/
+Allow: /services/masoudieh/
+Allow: /services/mesgarabad/
+Allow: /services/khavaran/
+Allow: /services/shahrek-omid/
+Allow: /services/azgol/
+Allow: /services/nobonyad/
+Allow: /services/fronabad/
+
+# جلوگیری از ایندکس صفحات غیرضروری
+Disallow: /404.html
 Disallow: /admin/
+Disallow: /scripts/
+Disallow: /backup/
+Disallow: /node_modules/
 Disallow: /private/
 
+# جلوگیری از ایندکس فایل‌های سیستمی
+Disallow: /*.log$
+Disallow: /*.zip$
+Disallow: /*.tar$
+Disallow: /*.bak$
+
+# مسیر نقشه سایت
 Sitemap: https://takserviceartin.github.io/sitemap.xml
