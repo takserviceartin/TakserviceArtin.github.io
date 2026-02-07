@@ -1,4 +1,14 @@
-/* ------------------- فونت و پایه ------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  background-image: url('images/hero.jpg'); /* مسیر عکس */
+  background-size: cover;        /* عکس کل صفحه رو بپوشونه */
+  background-position: center;   /* وسط قرار بگیره */
+  background-repeat: no-repeat;  /* تکرار نشه */
+  background-attachment: fixed;  /* وقتی اسکرول می‌کنیم ثابت بمونه */
+}/* ------------------- فونت و پایه ------------------- */
 body {
   font-family: Tahoma, sans-serif;
   margin: 0;
