@@ -45,21 +45,6 @@
             box-sizing: border-box;
         }
         
-        /* بدنه اصلی با رنگ زیتونی نیمه تیره */
-        body {
-            font-family: 'Vazirmatn', 'Tahoma', 'Arial', sans-serif;
-            background-color: #2d5016;
-            color: #f0f0f0;
-            line-height: 1.6;
-            padding-top: 80px;
-            overflow-x: hidden;
-            direction: rtl;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        
         /* کانتینر اصلی */
         .container {
             max-width: 1200px;
@@ -174,7 +159,7 @@
         }
         
         .sidebar-menu a {
-            color: white;
+            color: black;
             text-decoration: none;
             padding: 12px 15px;
             border-radius: 8px;
@@ -285,7 +270,7 @@
         /* مدیریت نعمت‌زاده */
         .management-name {
             font-family: 'Vazirmatn', 'Nastaliq', serif;
-            font-size: 28px;
+            font-size: 40px;
             color: #ffd700;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
             background: linear-gradient(45deg, #2d5016, #4a752c);
@@ -322,7 +307,7 @@
             border-radius: 12px;
             font-weight: bold;
             color: white;
-            font-size: 20px;
+            font-size: 40px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
             border: 2px solid #ffd700;
             transition: all 0.3s;
@@ -431,7 +416,7 @@
         <!-- ۲. هود -->
         <div class="service-card" onclick="toggleTutorial('hood-tutorial')">
             <span class="service-icon"><i class="fas fa-wind"></i></span>
-            <h3>آموزش هود</h3>
+            <h2>آموزش هود</h3>
             <p>رازهای افزایش قدرت مکش</p>
             <div id="hood-tutorial" class="tutorial-content">
                 <p>۱. فیلترهای چربی را ماهی یکبار بشویید.</p>
@@ -447,7 +432,7 @@
         <!-- ۳. فر -->
         <div class="service-card" onclick="toggleTutorial('oven-tutorial')">
             <span class="service-icon"><i class="fas fa-temperature-high"></i></span>
-            <h3>آموزش فر</h3>
+            <h2>آموزش فر</h3>
             <p>پخت حرفه‌ای با فر</p>
             <div id="oven-tutorial" class="tutorial-content">
                 <p>۱. قبل از استفاده ۱۰ دقیقه پیش‌گرم کنید.</p>
@@ -463,7 +448,7 @@
         <!-- ۴. پکیج -->
         <div class="service-card" onclick="toggleTutorial('package-tutorial')">
             <span class="service-icon"><i class="fas fa-water"></i></span>
-            <h3>آموزش پکیج</h3>
+            <h2>آموزش پکیج</h3>
             <p>گرمایش بهینه و کم مصرف</p>
             <div id="package-tutorial" class="tutorial-content">
                 <p>۱. فشار پکیج را روی ۱.۵ بار تنظیم کنید.</p>
@@ -479,7 +464,7 @@
         <!-- ۵. آبگرمکن -->
         <div class="service-card" onclick="toggleTutorial('waterheater-tutorial')">
             <span class="service-icon"><i class="fas fa-fire-alt"></i></span>
-            <h3>آموزش آبگرمکن</h3>
+            <h2>آموزش آبگرمکن</h3>
             <p>طول عمر بیشتر، مصرف کمتر</p>
             <div id="waterheater-tutorial" class="tutorial-content">
                 <p>۱. دمای ترموستات را روی ۶۰ درجه تنظیم کنید.</p>
@@ -495,7 +480,7 @@
         <!-- ۶. جاروبرقی -->
         <div class="service-card" onclick="toggleTutorial('vacuum-tutorial')">
             <span class="service-icon"><i class="fas fa-broom"></i></span>
-            <h3>آموزش جاروبرقی</h3>
+            <h2>آموزش جاروبرقی</h3>
             <p>مکش قوی و طول عمر بالا</p>
             <div id="vacuum-tutorial" class="tutorial-content">
                 <p>۱. کیسه یا مخزن را قبل از پرشدگی خالی کنید.</p>
@@ -511,7 +496,7 @@
         <!-- ۷. ماکروویو -->
         <div class="service-card" onclick="toggleTutorial('microwave-tutorial')">
             <span class="service-icon"><i class="fas fa-bolt"></i></span>
-            <h3>آموزش ماکروویو</h3>
+            <h2>آموزش ماکروویو</h3>
             <p>استفاده ایمن و بهینه</p>
             <div id="microwave-tutorial" class="tutorial-content">
                 <p>۱. از ظروف مخصوص ماکروویو استفاده کنید.</p>
@@ -527,7 +512,7 @@
         <!-- ۸. ماشین ظرفشویی -->
         <div class="service-card" onclick="toggleTutorial('dishwasher-tutorial')">
             <span class="service-icon"><i class="fas fa-soap"></i></span>
-            <h3>آموزش ماشین ظرفشویی</h3>
+            <h2>آموزش ماشین ظرفشویی</h3>
             <p>شستشوی کامل و بدون لک</p>
             <div id="dishwasher-tutorial" class="tutorial-content">
                 <p>۱. قبل از گذاشتن ظروف، باقیمانده غذا را پاک کنید.</p>
@@ -1254,42 +1239,42 @@
                     <span class="service-icon">
                         <i class="fas fa-wind"></i>
                     </span>
-                    <h3>نصب و تعمیرات هود</h3>
+                    <h2>نصب و تعمیرات هود</h2>
                     <p>انواع هود آشپزخانه</p>
                 </div>
                 <div class="service-card" onclick="showTutorial('oven')">
                     <span class="service-icon">
                         <i class="fas fa-temperature-high"></i>
                     </span>
-                    <h3>نصب و تعمیرات فر</h3>
+                    <h2>نصب و تعمیرات فر</h3>
                     <p>انواع فرهای توکار و روکار</p>
                 </div>
                 <div class="service-card" onclick="showTutorial('microwave')">
                     <span class="service-icon">
                         <i class="fas fa-bolt"></i>
                     </span>
-                    <h3>نصب و تعمیرات ماکروویو</h3>
+                    <h2>نصب و تعمیرات ماکروویو</h2>
                     <p>انواع ماکروویو</p>
                 </div>
                 <div class="service-card" onclick="showTutorial('vacuum')">
                     <span class="service-icon">
                         <i class="fas fa-broom"></i>
                     </span>
-                    <h3>نصب و تعمیرات جاروبرقی</h3>
+                    <h2>نصب و تعمیرات جاروبرقی</h2>
                     <p>انواع جاروبرقی</p>
                 </div>
                 <div class="service-card" onclick="showTutorial('package')">
                     <span class="service-icon">
                         <i class="fas fa-water"></i>
                     </span>
-                    <h3>نصب و تعمیرات پکیج</h3>
+                    <h2>نصب و تعمیرات پکیج</h2>
                     <p>انواع پکیج</p>
                 </div>
                 <div class="service-card" onclick="showTutorial('waterheater')">
                     <span class="service-icon">
                         <i class="fas fa-fire-alt"></i>
                     </span>
-                    <h3>نصب و تعمیرات آبگرمکن</h3>
+                    <h2>نصب و تعمیرات آبگرمکن</h2>
                     <p>انواع آبگرمکن</p>
                 </div>
             </div>
@@ -1300,16 +1285,16 @@
             <h2 class="section-title">درباره ما</h2>
             <div class="about-content">
                 <div style="margin-bottom: 25px; padding-right: 20px; border-right: 4px solid #ffd700;">
-                    <h3 style="color: #ffd700; margin-bottom: 15px; font-size: 22px; display: flex; align-items: center; gap: 10px;">
+                    <h2 style="color: #ffd700; margin-bottom: 15px; font-size: 22px; display: flex; align-items: center; gap: 10px;">
                         <i class="fas fa-handshake"></i> معرفی شرکت
-                    </h3>
+                    </h2>
                     <p>تک سرویس آرتین با بیش از ۱۸ سال سابقه درخشان در زمینه نصب، تعمیر و سرویس انواع لوازم خانگی، یکی از معتبرترین مراکز خدمات پس از فروش در تهران می‌باشد.</p>
                 </div>
                 
                 <div style="margin-bottom: 25px; padding-right: 20px; border-right: 4px solid #ffd700;">
-                    <h3 style="color: #ffd700; margin-bottom: 15px; font-size: 22px; display: flex; align-items: center; gap: 10px;">
+                    <h2 style="color: #ffd700; margin-bottom: 15px; font-size: 22px; display: flex; align-items: center; gap: 10px;">
                         <i class="fas fa-users"></i> تیم متخصص
-                    </h3>
+                    </h2>
                     <p>تیم ما متشکل از مهندسین و تکنسین‌های مجرب و دوره‌دیده است که به صورت مداوم در حال به‌روزرسانی دانش فنی خود هستند.</p>
                 </div>
                 
