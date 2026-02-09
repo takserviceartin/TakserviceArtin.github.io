@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: url("hero.jpg") center/cover fixed no-repeat;
+    background: url("images/hero.jpg") center/cover fixed no-repeat;
     background-size: cover;
     color: #fff;
     font-family: Arial, sans-serif;
