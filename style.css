@@ -155,12 +155,3 @@ section::before,
 section::after {
     display: none !important;
 }
-
-/* عکس بکگراند */
-body {
-    background: url("hero.jpg") center/cover fixed no-repeat !important;
-  }
-body {
-    background: url("hero.jpg") center/cover fixed no-repeat !important;
-    background-size: cover;
-  }
