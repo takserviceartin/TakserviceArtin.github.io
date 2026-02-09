@@ -155,3 +155,11 @@ section::before,
 section::after {
     display: none !important;
 }
+
+body {
+    background: url("hero.jpg") center/cover fixed no-repeat !important;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
