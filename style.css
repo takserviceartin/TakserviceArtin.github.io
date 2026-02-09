@@ -135,3 +135,28 @@ body {
     font-size: 1.3rem;
   }
 }
+/* ===== BACKGROUND IMAGE FIX ===== */
+
+html, body {
+    background: transparent !important;
+}
+
+section,
+.container,
+.wrapper,
+header,
+footer {
+    background: transparent !important;
+}
+
+body::before,
+body::after,
+section::before,
+section::after {
+    display: none !important;
+}
+
+/* عکس بکگراند */
+body {
+    background: url("hero.jpg") center/cover fixed no-repeat !important;
+  }
