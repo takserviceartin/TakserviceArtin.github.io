@@ -2135,20 +2135,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
-        /* بدنه اصلی با رنگ زیتونی نیمه تیره */
-        body {
-            font-family: 'Vazirmatn', 'Tahoma', 'Arial', sans-serif;
-            background-color: #2d5016;
-            color: #f0f0f0;
-            line-height: 1.6;
-            padding-top: 80px;
-            overflow-x: hidden;
-            direction: rtl;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
+    
         }
         
         /* کانتینر اصلی */
@@ -3785,105 +3772,4 @@
         
         // بررسی اعتبار فرم
         function checkFormValidity() {
-            const form = document.getElementById('requestForm');
-            const submitBtn = document.getElementById('submitBtn');
-            const mapContainer = document.getElementById('map-container');
-            
-            // بررسی اینکه آیا نقشه نمایش داده شده است
-            const isMapVisible = mapContainer.style.display !== 'none';
-            
-            // بررسی اینکه آیا لوکیشن انتخاب شده است
-            const hasLocation = selectedLocation !== null;
-            
-            // بررسی اینکه آیا تمام فیلدهای ضروری پر شده‌اند
-            let allRequiredFilled = true;
-            const requiredInputs = form.querySelectorAll('[required]');
-            
-            requiredInputs.forEach(input => {
-                if (!input.value.trim()) {
-                    allRequiredFilled = false;
-                }
-            });
-            
-            // فعال/غیرفعال کردن دکمه ارسال
-            if (allRequiredFilled && isMapVisible && hasLocation) {
-                submitBtn.disabled = false;
-                submitBtn.style.opacity = '1';
-                submitBtn.style.cursor = 'pointer';
-            } else {
-                submitBtn.disabled = true;
-                submitBtn.style.opacity = '0.5';
-                submitBtn.style.cursor = 'not-allowed';
-            }
-        }
-        
-        // ارسال درخواست
-        function sendRequest() {
-            // اعتبارسنجی نهایی
-            const name = document.getElementById('customerName').value.trim();
-            const phone = document.getElementById('customerPhone').value.trim();
-            const address = document.getElementById('customerAddress').value.trim();
-            const serviceType = document.getElementById('serviceType').value;
-            const problem = document.getElementById('problemDescription').value.trim();
-            
-            if (!name || !phone || !address || !serviceType || !problem) {
-                showNotification('لطفاً تمام فیلدهای ضروری را پر کنید.', 'error');
-                return;
-            }
-            
-            if (!phone.match(/^09[0-9]{9}$/)) {
-                showNotification('لطفاً شماره موبایل معتبر وارد کنید (با ۰۹ شروع شود).', 'error');
-                return;
-            }
-            
-            if (!selectedLocation) {
-                showNotification('لطفاً موقعیت خود را روی نقشه انتخاب کنید.', 'error');
-                return;
-            }
-            
-            // ساخت پیام برای واتساپ
-            const brand = document.getElementById('brandType').value;
-            const preferredTime = document.getElementById('preferredTime').value;
-            
-            let message = `📋 درخواست جدید خدمات\n\n`;
-            message += `👤 نام: ${name}\n`;
-            message += `📱 تلفن: ${phone}\n`;
-            message += `📍 آدرس: ${address}\n`;
-            message += `🗺️ موقعیت: ${selectedLocation.lat.toFixed(6)}, ${selectedLocation.lng.toFixed(6)}\n`;
-            message += `🔧 نوع خدمت: ${serviceType}\n`;
-            
-            if (brand) {
-                message += `🏷️ برند: ${brand}\n`;
-            }
-            
-            message += `📝 مشکل: ${problem}\n`;
-            
-            if (preferredTime) {
-                message += `⏰ زمان مراجعه: ${preferredTime}\n`;
-            }
-            
-            message += `\n🕒 تاریخ: ${new Date().toLocaleString('fa-IR')}\n`;
-            message += `🌐 وبسایت: takserviceartin.github.io`;
-            
-            // ارسال به واتساپ
-            sendToWhatsApp(message);
-            
-            // نمایش پیام دیوان حافظ
-            showHafezVerse();
-            
-            // نمایش پیام موفقیت
-            setTimeout(() => {
-                document.getElementById('successMessage').style.display = 'block';
-            }, 1000);
-        }
-        
-        // نمایش بیت دیوان حافظ
-        function showHafezVerse() {
-            const randomVerse = hafezVerses[Math.floor(Math.random() * hafezVerses.length)];
-            document.getElementById('hafezText').textContent = randomVerse;
-            document.getElementById('hafezMessage').style.display = 'block';
-            
-            // نمایش در پیام موفقیت
-            document.getElementById('hafezContainer').innerHTML = `
-                <div class="hafez-text">${randomVerse}</div>
-                <div class="goodbye-message">«به امید دیدار مجدد شما»</div>
+            const form = document.ge
