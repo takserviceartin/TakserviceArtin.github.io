@@ -29,7 +29,7 @@ body {
     color: #fff;
 }
 
-/* منوی بالای هدر */
+/* هدر فلکس برای لوگو و منو */
 .header-flex {
     display: flex;
     justify-content: space-between;
@@ -40,6 +40,7 @@ body {
 /* لوگو */
 .header .logo img {
     width: 150px;
+    height: auto;
 }
 
 /* منو */
@@ -74,9 +75,9 @@ body {
     margin-bottom: 30px;
 }
 
-/* دکمه CTA کاملاً شفاف */
+/* دکمه CTA شفاف */
 .header .btn {
-    background: transparent; /* هیچ رنگ روی عکس نیست */
+    background: transparent; /* هیچ رنگی ندارد */
     text-decoration: none;
     color: #fff;
     padding: 18px 35px;
@@ -86,7 +87,7 @@ body {
 }
 
 .header .btn:hover {
-    background: rgba(0,0,0,0.15); /* فقط وقتی موس روشه کمی دیده میشه */
+    background: transparent; /* هنگام hover هم شفاف باقی می‌ماند */
 }
 
 /* =================== SERVICES CARDS =================== */
@@ -102,8 +103,7 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 20px;
-    background: transparent;  /* بدون رنگ یا مات بودن */
-    backdrop-filter: none;
+    background: transparent; /* بدون رنگ یا مات بودن */
     text-align: center;
 }
 
@@ -164,4 +164,4 @@ footer {
     .certs img {
         width: 200px;
     }
-    }
+}
