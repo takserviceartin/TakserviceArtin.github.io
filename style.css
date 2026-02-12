@@ -1,8 +1,107 @@
-html, body {
+/* RESET کامل مرورگر */
+* {
     margin: 0;
     padding: 0;
-    background: url("images/hero.jpg") center/cover fixed no-repeat;
-    background-size: cover;
-    color: #fff;
+    box-sizing: border-box;
+}
+
+/* تنظیمات اصلی صفحه */
+html, body {
+    height: 100%;
     font-family: Arial, sans-serif;
+    color: #ffffff;
+    
+    /* بکگراند فقط عکس - بدون هیچ رنگی */
+    background-image: url("images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* حذف هر نوع بکگراند رنگی از همه بخش‌ها */
+header,
+section,
+footer,
+div,
+main,
+nav {
+    background: transparent !important;
+}
+
+/* کانتینر اصلی سایت */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* هدر */
+header {
+    padding: 25px 0;
+    text-align: center;
+}
+
+/* عنوان سایت */
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+/* زیر عنوان */
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* متن‌ها */
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* بخش‌ها */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* دکمه‌ها */
+button, .btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(0,0,0,0.4); /* فقط کمی شفاف برای خوانایی متن */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background: rgba(0,0,0,0.6);
+}
+
+/* لینک‌ها */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* فوتر */
+footer {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* موبایل */
+@media (max-width: 768px) {
+    h1 { font-size: 32px; }
+    h2 { font-size: 24px; }
+    p  { font-size: 16px; }
 }
