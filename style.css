@@ -1,18 +1,17 @@
-/* =================== RESET =================== */
+/* ================== Reset و پایه ================== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* =================== BODY =================== */
 body {
     font-family: Arial, sans-serif;
-    color: #fff;
+    color: #fff; /* رنگ متن */
     background: url("images/hero.jpg") center/cover fixed no-repeat;
 }
 
-/* =================== CONTAINER =================== */
+/* ================== کانتینر ================== */
 .container {
     width: 90%;
     max-width: 1200px;
@@ -20,16 +19,14 @@ body {
     text-align: center;
 }
 
-/* =================== HEADER =================== */
+/* ================== هدر ================== */
 .header {
     width: 100%;
     height: 100vh;
-    background: url("images/hero.jpg") center/cover fixed no-repeat;
     position: relative;
-    color: #fff;
+    background: transparent; /* هیچ رنگ اضافی */
 }
 
-/* هدر فلکس برای لوگو و منو */
 .header-flex {
     display: flex;
     justify-content: space-between;
@@ -37,13 +34,11 @@ body {
     padding: 25px 50px;
 }
 
-/* لوگو */
 .header .logo img {
     width: 150px;
     height: auto;
 }
 
-/* منو */
 .header .nav a {
     margin-left: 25px;
     text-decoration: none;
@@ -56,7 +51,6 @@ body {
     color: #00ffff;
 }
 
-/* متن روی هدر */
 .header-text {
     position: absolute;
     top: 50%;
@@ -67,30 +61,27 @@ body {
 
 .header-text h1 {
     font-size: 60px;
-    margin-bottom: 15px;
 }
 
 .header-text p {
     font-size: 24px;
-    margin-bottom: 30px;
 }
 
-/* دکمه CTA شفاف */
 .header .btn {
-    background: transparent; /* هیچ رنگی ندارد */
-    text-decoration: none;
-    color: #fff;
     padding: 18px 35px;
     font-size: 22px;
     border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    background: transparent; /* بدون رنگ */
     transition: 0.3s;
 }
 
 .header .btn:hover {
-    background: transparent; /* هنگام hover هم شفاف باقی می‌ماند */
+    background: transparent; /* بدون رنگ */
 }
 
-/* =================== SERVICES CARDS =================== */
+/* ================== کارت خدمات ================== */
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -103,7 +94,7 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 20px;
-    background: transparent; /* بدون رنگ یا مات بودن */
+    background: transparent; /* شفاف */
     text-align: center;
 }
 
@@ -117,7 +108,7 @@ body {
     font-size: 20px;
 }
 
-/* =================== CERTIFICATES =================== */
+/* ================== گواهینامه‌ها ================== */
 .certs {
     display: flex;
     justify-content: center;
@@ -131,14 +122,14 @@ body {
     border-radius: 15px;
 }
 
-/* =================== FOOTER =================== */
+/* ================== Footer ================== */
 footer {
     padding: 40px 0;
     font-size: 18px;
     text-align: center;
 }
 
-/* =================== MOBILE =================== */
+/* ================== موبایل ================== */
 @media(max-width:768px){
     .header-flex {
         flex-direction: column;
@@ -149,9 +140,17 @@ footer {
         margin-top: 15px;
     }
 
-    .header-text h1 { font-size: 40px; }
-    .header-text p { font-size: 20px; }
-    .header .logo img { width: 120px; }
+    .header-text h1 {
+        font-size: 40px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+    }
+
+    .header .logo img {
+        width: 120px;
+    }
 
     .card {
         width: 90%;
