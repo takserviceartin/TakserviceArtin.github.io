@@ -1,104 +1,167 @@
-/* RESET */
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+/* =================== RESET =================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* بکگراند اصلی */
-body{
+/* =================== BODY =================== */
+body {
     font-family: Arial, sans-serif;
-    color:#fff;
-    background:url("images/hero.jpg") center/cover fixed no-repeat;
+    color: #fff;
+    background: url("images/hero.jpg") center/cover fixed no-repeat;
 }
 
-/* کانتینر */
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-    text-align:center;
+/* =================== CONTAINER =================== */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
 }
 
-/* هدر */
-header{
-    padding:120px 0;
+/* =================== HEADER =================== */
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url("images/hero.jpg") center/cover fixed no-repeat;
+    position: relative;
+    color: #fff;
 }
 
-h1{
-    font-size:60px;   /* بزرگ شد */
-    margin-bottom:20px;
+/* منوی بالا */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
 }
 
-h2{
-    font-size:40px;
-    margin-bottom:25px;
+/* لوگو */
+.header .logo img {
+    width: 150px;
 }
 
-p{
-    font-size:24px;   /* متن خوانا */
-    line-height:1.9;
+/* منو */
+.header .nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
-/* سکشن ها */
-section{
-    padding:90px 0;
+.header .nav a:hover {
+    color: #00ffff;
 }
 
-/* کارت خدمات */
-.cards{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:30px;
+/* متن روی هدر */
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.card{
-    width:300px;
-    padding:20px;
-    border-radius:20px;
-    backdrop-filter: blur(2px); /* خیلی کم */
-    background: rgba(0,0,0,0.15); /* مات خیلی کم */
+.header-text h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
 }
 
-.card img{
-    width:100%;
-    border-radius:15px;
-    margin-bottom:15px;
+.header-text p {
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 
-/* گواهینامه ها */
-.certs{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    flex-wrap:wrap;
+/* دکمه CTA */
+.header .btn {
+    padding: 18px 35px;
+    font-size: 22px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.25);
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
 }
 
-.certs img{
-    width:250px;
-    border-radius:15px;
+.header .btn:hover {
+    background: rgba(0,0,0,0.5);
 }
 
-/* دکمه */
-.btn{
-    display:inline-block;
-    margin-top:25px;
-    padding:18px 35px;
-    font-size:22px;
-    border-radius:10px;
-    background:rgba(0,0,0,0.25);
+/* =================== SERVICES CARDS =================== */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 60px 0;
 }
 
-footer{
-    padding:40px;
-    font-size:18px;
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.15);
+    backdrop-filter: blur(2px);
+    text-align: center;
 }
 
-/* موبایل */
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+/* =================== CERTIFICATES =================== */
+.certs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+.certs img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+/* =================== FOOTER =================== */
+footer {
+    padding: 40px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* =================== MOBILE =================== */
 @media(max-width:768px){
-    h1{font-size:40px;}
-    h2{font-size:28px;}
-    p{font-size:20px;}
+    .header-flex {
+        flex-direction: column;
+        padding: 15px 20px;
     }
-    
+
+    .header .nav {
+        margin-top: 15px;
+    }
+
+    .header-text h1 { font-size: 40px; }
+    .header-text p { font-size: 20px; }
+    .header .logo img { width: 120px; }
+
+    .card {
+        width: 90%;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+
+    .certs img {
+        width: 200px;
+    }
+}
