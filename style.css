@@ -29,7 +29,7 @@ body {
     color: #fff;
 }
 
-/* منوی بالا */
+/* منوی بالای هدر */
 .header-flex {
     display: flex;
     justify-content: space-between;
@@ -74,19 +74,19 @@ body {
     margin-bottom: 30px;
 }
 
-/* دکمه CTA */
+/* دکمه CTA کاملاً شفاف */
 .header .btn {
+    background: transparent; /* هیچ رنگ روی عکس نیست */
+    text-decoration: none;
+    color: #fff;
     padding: 18px 35px;
     font-size: 22px;
     border-radius: 10px;
-    background: rgba(0,0,0,0.25);
-    text-decoration: none;
-    color: #fff;
     transition: 0.3s;
 }
 
 .header .btn:hover {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.15); /* فقط وقتی موس روشه کمی دیده میشه */
 }
 
 /* =================== SERVICES CARDS =================== */
@@ -102,8 +102,8 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 20px;
-    background: rgba(0,0,0,0.15);
-    backdrop-filter: blur(2px);
+    background: transparent;  /* بدون رنگ یا مات بودن */
+    backdrop-filter: none;
     text-align: center;
 }
 
@@ -164,4 +164,4 @@ footer {
     .certs img {
         width: 200px;
     }
-}
+    }
