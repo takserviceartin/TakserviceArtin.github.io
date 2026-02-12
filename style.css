@@ -1,107 +1,103 @@
-/* RESET کامل مرورگر */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-/* تنظیمات اصلی صفحه */
-html, body {
-    height: 100%;
+/* بکگراند اصلی */
+body{
     font-family: Arial, sans-serif;
-    color: #ffffff;
-    
-    /* بکگراند فقط عکس - بدون هیچ رنگی */
-    background-image: url("images/hero.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    color:#fff;
+    background:url("images/hero.jpg") center/cover fixed no-repeat;
 }
 
-/* حذف هر نوع بکگراند رنگی از همه بخش‌ها */
-header,
-section,
-footer,
-div,
-main,
-nav {
-    background: transparent !important;
-}
-
-/* کانتینر اصلی سایت */
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
+/* کانتینر */
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
 }
 
 /* هدر */
-header {
-    padding: 25px 0;
-    text-align: center;
+header{
+    padding:120px 0;
 }
 
-/* عنوان سایت */
-h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
+h1{
+    font-size:60px;   /* بزرگ شد */
+    margin-bottom:20px;
 }
 
-/* زیر عنوان */
-h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
+h2{
+    font-size:40px;
+    margin-bottom:25px;
 }
 
-/* متن‌ها */
-p {
-    font-size: 18px;
-    line-height: 1.8;
+p{
+    font-size:24px;   /* متن خوانا */
+    line-height:1.9;
 }
 
-/* بخش‌ها */
-section {
-    padding: 60px 0;
-    text-align: center;
+/* سکشن ها */
+section{
+    padding:90px 0;
 }
 
-/* دکمه‌ها */
-button, .btn {
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    background: rgba(0,0,0,0.4); /* فقط کمی شفاف برای خوانایی متن */
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
+/* کارت خدمات */
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
 }
 
-button:hover, .btn:hover {
-    background: rgba(0,0,0,0.6);
+.card{
+    width:300px;
+    padding:20px;
+    border-radius:20px;
+    backdrop-filter: blur(2px); /* خیلی کم */
+    background: rgba(0,0,0,0.15); /* مات خیلی کم */
 }
 
-/* لینک‌ها */
-a {
-    color: #ffffff;
-    text-decoration: none;
+.card img{
+    width:100%;
+    border-radius:15px;
+    margin-bottom:15px;
 }
 
-a:hover {
-    text-decoration: underline;
+/* گواهینامه ها */
+.certs{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
 }
 
-/* فوتر */
-footer {
-    padding: 30px 0;
-    text-align: center;
-    font-size: 14px;
+.certs img{
+    width:250px;
+    border-radius:15px;
+}
+
+/* دکمه */
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:18px 35px;
+    font-size:22px;
+    border-radius:10px;
+    background:rgba(0,0,0,0.25);
+}
+
+footer{
+    padding:40px;
+    font-size:18px;
 }
 
 /* موبایل */
-@media (max-width: 768px) {
-    h1 { font-size: 32px; }
-    h2 { font-size: 24px; }
-    p  { font-size: 16px; }
-}
+@media(max-width:768px){
+    h1{font-size:40px;}
+    h2{font-size:28px;}
+    p{font-size:20px;}
+    }
