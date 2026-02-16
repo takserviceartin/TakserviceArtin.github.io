@@ -8,9 +8,8 @@
 body {
     font-family: Arial, sans-serif;
     color: #fff; /* رنگ متن */
-    background: url("images/hero.jpg") center/cover fixed no-repeat;
+background: url("../../images/hero.jpg") center/cover no-repeat fixed;
 }
-
 /* ================== کانتینر ================== */
 .container {
     width: 90%;
