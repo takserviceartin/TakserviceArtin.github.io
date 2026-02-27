@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>محدوده فعالیت تک سرویس آرتین</name>
+    <description>مناطق تحت پوشش خدمات تعمیرات لوازم خانگی در تهران و شهرستان‌های اطراف</description>
+    
+    <!-- دفتر مرکزی - تهرانپارس -->
+    <Placemark>
+      <name>دفتر مرکزی تک سرویس آرتین</name>
+      <description>خیابان ۱۵۰ غربی (رمضانی)، فلکه اول تهرانپارس</description>
+      <Point>
+        <coordinates>51.5085,35.7325,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <!-- محدوده تقریبی تهرانپارس و شرق تهران -->
+    <Placemark>
+      <name>منطقه تهرانپارس و شرق تهران</name>
+      <description>پوشش کامل خدمات در تهرانپارس، نارمک، افسریه و شرق تهران</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              51.5200,35.7400
+              51.5400,35.7350
+              51.5350,35.7200
+              51.5100,35.7150
+              51.4950,35.7250
+              51.5000,35.7350
+              51.5200,35.7400
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    
+    <!-- محدوده قرچک و ورامین -->
+    <Placemark>
+      <name>منطقه قرچک و ورامین</name>
+      <description>پوشش کامل خدمات در قرچک، ورامین، پیشوا و پاکدشت</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              51.5700,35.4400
+              51.5900,35.4350
+              51.5850,35.4150
+              51.5550,35.4100
+              51.5400,35.4250
+              51.5500,35.4400
+              51.5700,35.4400
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
