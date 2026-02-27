@@ -1,64 +1,198 @@
+# ==================================================
+# ROBOTS.TXT - تک سرویس آرتین (نسخه ۳.۰ حرفه‌ای)
+# بهینه‌سازی شده برای سئوی محلی، نقشه‌های هوشمند و ایندکس سریع
+# آخرین به‌روزرسانی: 2025-03-01
+# ==================================================
 
-# Robots.txt حرفه‌ای - تک سرویس آرتین
-# اجازه دسترسی به همه ربات‌ها
+# -------------------- تنظیمات هوشمند برای همه ربات‌ها --------------------
 User-agent: *
-# اجازه ایندکس صفحات اصلی و خدمات محلی
 Allow: /
-Allow: /services/
-Allow: /services/tehran/
-Allow: /services/qarchak/
-Allow: /services/varamin/
-Allow: /services/afsrieh/
-Allow: /services/parsdanar/
-Allow: /services/pakdasht/
-Allow: /services/qiamdasht/
-Allow: /services/pirozi/
-Allow: /services/resalat/
-Allow: /services/tehranpars/
-Allow: /services/shahre-rey/
-Allow: /services/dolatabad/
-Allow: /services/shush/
-Allow: /services/rahahan/
-Allow: /services/blvr-abozar/
-Allow: /services/mahallati/
-Allow: /services/farmanieh/
-Allow: /services/pardis/
-Allow: /services/bomhen/
-Allow: /services/jajerud/
-Allow: /services/hakimiye/
-Allow: /services/babaei/
-Allow: /services/loyzan/
-Allow: /services/sorkhe-hesar/
-Allow: /services/estakhr/
-Allow: /services/lavasanat/
-Allow: /services/kahrizak/
-Allow: /services/baqershahr/
-Allow: /services/qamsar/
-Allow: /services/eslamshahr/
-Allow: /services/farjam/
-Allow: /services/shahrek-shahid-beheshti/
-Allow: /services/shahrek-farhangian/
-Allow: /services/masoudieh/
-Allow: /services/mesgarabad/
-Allow: /services/khavaran/
-Allow: /services/shahrek-omid/
-Allow: /services/azgol/
-Allow: /services/nobonyad/
-Allow: /services/fronabad/
 
-# جلوگیری از ایندکس صفحات غیرضروری
-Disallow: /404.html
-Disallow: /admin/
-Disallow: /scripts/
-Disallow: /backup/
-Disallow: /node_modules/
-Disallow: /private/
-
-# جلوگیری از ایندکس فایل‌های سیستمی
+# مسدودسازی فایل‌های بی‌ارزش و پوشه‌های سیستمی
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
 Disallow: /*.log$
-Disallow: /*.zip$
-Disallow: /*.tar$
+Disallow: /*.tmp$
 Disallow: /*.bak$
+Disallow: /*.old$
+Disallow: /*.md$
+Disallow: /*.sh$
+Disallow: /*.py$
+Disallow: /node_modules/
+Disallow: /vendor/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /.env
+Disallow: /package*.json
+Disallow: /composer*.json
+Disallow: /Gemfile*
+Disallow: /README*
+Disallow: /LICENSE*
+Disallow: /CHANGELOG*
+Disallow: /CNAME
+Disallow: /404.html
+Disallow: /500.html
+Disallow: /favicon.ico
+Disallow: /robots.txt$
+Disallow: /sitemap*.xml$
+Disallow: /*.kml$
 
-# مسیر نقشه سایت
+# -------------------- تنظیمات اختصاصی برای گوگل --------------------
+# گوگل بوت اصلی
+User-agent: Googlebot
+Allow: /
+Allow: /*#services$
+Allow: /*#coverage$
+Allow: /*#feedback$
+Allow: /*#about$
+Allow: /*#contact$
+Allow: /*#request$
+Allow: /*#brands$
+Allow: /*#certificates$
+Allow: /*#tutorials$
+Disallow: /*?*
+Crawl-delay: 1
+
+# ربات موبایل گوگل (نسخه جدید)
+User-agent: Googlebot-Smartphone
+Allow: /
+Disallow: /*?*
+
+# ربات تصاویر گوگل
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.webp$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.avif$
+Disallow: /*?*
+Disallow: /node_modules/
+Disallow: /vendor/
+
+# ربات ویدیوی گوگل
+User-agent: Googlebot-Video
+Allow: /videos/
+Allow: /*.mp4$
+Allow: /*.webm$
+Allow: /*.mov$
+Allow: /*.avi$
+Disallow: /*?*
+
+# ربات اخبار گوگل
+User-agent: Googlebot-News
+Allow: /
+
+# -------------------- تنظیمات برای بینگ --------------------
+User-agent: Bingbot
+Allow: /
+Allow: /*#services
+Allow: /*#coverage
+Allow: /*#feedback
+Allow: /*#about
+Allow: /*#contact
+Allow: /*#request
+Disallow: /*?*
+Crawl-delay: 1
+
+User-agent: Bingbot-Image
+Allow: /images/
+Disallow: /*?*
+
+# -------------------- تنظیمات برای یاندکس --------------------
+User-agent: Yandex
+Allow: /
+Allow: /*#services
+Allow: /*#coverage
+Allow: /*#feedback
+Allow: /*#contact
+Disallow: /*?*
+Crawl-delay: 2
+
+User-agent: YandexImages
+Allow: /images/
+
+# -------------------- تنظیمات برای بایدو (چین) --------------------
+User-agent: Baiduspider
+Allow: /
+Allow: /images/
+Disallow: /*?*
+Crawl-delay: 2
+
+# -------------------- مسدودسازی ربات‌های اسپم --------------------
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+User-agent: PetalBot
+Disallow: /
+User-agent: DataForSeoBot
+Disallow: /
+User-agent: Magpie-Crawler
+Disallow: /
+User-agent: Cliqzbot
+Disallow: /
+User-agent: BLEXBot
+Disallow: /
+User-agent: Exabot
+Disallow: /
+User-agent: Gigabot
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: rogerbot
+Disallow: /
+User-agent: SafeDNSBot
+Disallow: /
+User-agent: SeznamBot
+Disallow: /
+User-agent: SMTBot
+Disallow: /
+User-agent: TrendictionBot
+Disallow: /
+User-agent: UptimeRobot
+Disallow: /
+
+# -------------------- تنظیمات زمان خزش (Crawl-Delay) --------------------
+# برای ربات‌های مجاز که نرخ خزش بالایی دارند
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: Yandex
+Crawl-delay: 2
+
+# -------------------- نقشه‌های سایت و فایل‌های مهم --------------------
+# نقشه اصلی
 Sitemap: https://takserviceartin.github.io/sitemap.xml
+
+# نقشه تصاویر (برای نمایش بهتر در نتایج جستجوی تصاویر)
+Sitemap: https://takserviceartin.github.io/image-sitemap.xml
+
+# نقشه ویدیوها (در صورت وجود)
+Sitemap: https://takserviceartin.github.io/video-sitemap.xml
+
+# نقشه اخبار (در صورت نیاز)
+# Sitemap: https://takserviceartin.github.io/news-sitemap.xml
+
+# فایل KML برای نمایش محدوده جغرافیایی (Google Maps)
+Sitemap: https://takserviceartin.github.io/coverage.kml
+
+# فایل GeoRSS برای سئوی محلی پیشرفته
+# Sitemap: https://takserviceartin.github.io/georss.xml
+
+# ==================================================
+# پایان فایل robots.txt
+# ==================================================
